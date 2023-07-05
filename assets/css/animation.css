@@ -1,0 +1,111 @@
+
+.reveal
+{
+    animation: reveal 3s linear 1;
+}
+@keyframes reveal {
+    0%
+    {
+        opacity: 1;
+        display: block;
+    }
+    30%
+    {
+        opacity: 1;
+        display: block;
+    }
+    60%
+    {
+        opacity: 0.7;
+        display: block;
+    }
+    90%
+    {
+        opacity: 0.3;
+        display: block;
+    }
+    100%
+    {
+        opacity: 0;
+
+    }
+}
+.slideup
+{
+    animation: slideup 1s ease forwards;
+}
+@keyframes slideup
+{
+    from
+    {
+       transform: translatey(100%);
+    }
+    to
+    {
+        transform: translatey(0px);
+    }  
+}
+.slidedown
+{
+    animation: slidedown 1s ease forwards;
+    position: relative;
+    z-index: 100;
+}
+@keyframes slidedown
+{
+    from
+    {
+       transform: translatey(-100%);
+    }
+    to
+    {
+        transform: translatey(0px);
+    }  
+}
+
+
+
+
+.revealfield
+{
+    animation: revealfield 0.5s linear forwards;
+}
+
+
+
+.delay-100ms
+{
+    animation-delay: 100ms;
+}
+.delay-200ms
+{
+    animation-delay: 200ms;
+}
+.delay-300ms
+{
+    animation-delay: 300ms;
+}
+.delay-400ms
+{
+    animation-delay: 400ms;
+}
+.delay-500ms
+{
+    animation-delay: 500ms;
+}
+
+
+@keyframes revealfield
+{
+    from
+    {
+        opacity: 0;
+    }    
+    to
+    {
+        opacity: 1;
+    }  
+}
+
+
+

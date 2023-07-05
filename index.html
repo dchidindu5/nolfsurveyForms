@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>   
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personnel Training Evaluation Form</title>
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- Font awesome 6 -->
+	<link rel="stylesheet" type="text/css" href="assets/fontawesome/all.css">
+
+	<!-- custom styles -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animation.css">
+
+	    <!-- color sceme -->
+		<link rel="stylesheet" href="assets/css/colorvariants/default.css" id="defaultscheme">
+
+
+
+		<!-- color switcher -->
+		<link rel="stylesheet" href="colorswitcher/assets/css/colorswitcher.html">
+</head>
+<body>
+	<main class="overflow-hidden">
+		<div class="row h-100">
+
+			<!-- side area -->
+			<div class="slideup side col-md-5 order-c">
+				<div class="side-inner">
+					<img src="assets/images/side-img.png" alt="side image">
+				</div>
+			</div>
+			<div class="slidedown col-md-7 h-100">
+				<div class="wrapper">
+					<div class="contact">
+						<!--<i class="fa-solid fa-phone"></i>-->
+						<img src="assets/images/logo.png" alt="side image">
+						<article>
+							<h5>Nolf Training</h5>
+							<span>For Info +2348189557703</span>
+						</article>
+					</div>
+					
+					
+
+					<form id="steps" method="post" class="show-section h-100" novalidate>
+
+						<!-- step 1 -->
+						<section class="steps">
+							<div class="step-count">Question 1 / 4</div>
+							<h2 class="main-heading">PERSONNEL TRAINING EVALUATION FORM</h2>
+							<div class="line-break"></div>
+
+							<!-- form -->
+							<fieldset class="form" id="step2"> <label><p>To be completed by Participant and submitted to Supervisor/Manager:</p></label>
+								<div class="row justify-content-space-between">
+									<div class="focus form-text d-flex">
+										<div class="text-field-icon">
+											<!-- <i class="fa-solid fa-user"></i>-->
+										</div>
+										
+										<div class="text-field-input">
+											<input type="text" name="name" id="name" placeholder="Participant's name" required>
+										</div>
+									</div>
+
+									<div class="focus form-text d-flex delay-100ms">
+										<div class="text-field-icon">
+											<!--<i class="fa-solid fa-envelope"></i>-->
+										</div>
+										<div class="text-field-input">
+											<input type="text" name="mail" id="mail-email" placeholder="Your Email" required>
+										</div>
+									</div>
+
+									<div class="focus form-text d-flex delay-200ms">
+										<div class="text-field-icon">
+											<!--<i class="fa-solid fa-location-dot"></i>-->
+										</div>
+										<div class="text-field-input">
+											<input type="text" name="location" id="location" placeholder="Training Course" required>
+										</div>
+									</div>
+
+									<div class="focus form-text d-flex delay-100ms">
+										<div class="text-field-icon">	
+										</div>
+										<div class="text-field-input">
+											<input type="text" name="name" id="name" placeholder="Job Title" required>
+										</div>
+									</div>
+
+
+									<div class="focus form-text d-flex delay-100ms">
+										<div class="text-field-icon">	
+										</div>
+										<div class="text-field-input">
+											<input type="text" name="name" id="name" placeholder="Department" required>
+										</div>
+									</div>
+
+
+								</div>
+							</fieldset>
+							<div class="next-prev-button">
+								<button type="button" class="prev">Previous Question</button>
+								<button type="button" class="next" id="step2btn">Next Question</button>
+							</div>
+						</section>
+
+
+						<section>
+							<fieldset class="form" id="step3">
+								<div class="row justify-content-space-between">
+									<h3 class="sub-heading">List of Courses/Softwares training/ Workshop Training</h3>
+	
+							<div class="line-break  mt-5 mb-5"></div>
+										<h3 class="sub-heading">List them below</h3>
+										<textarea class="textarea delay-100ms"></textarea>
+									</div>
+							</fieldset>
+							<div class="next-prev-button">
+								<button type="button" class="prev">Previous Question</button>
+								<button type="button" class="next" id="step1btn">Next Question</button>
+							</div></section>
+
+
+							<section>
+								<fieldset class="form" id="step3">
+									<div class="row justify-content-space-between">
+										<h3 class="sub-heading"> Action Points - To be completed by Participant of the course</h3>
+		
+								<div class="line-break  mt-5 mb-5"></div>
+											<h3 class="sub-heading">Describe what you gained and actions you will take to improve your effectiveness</h3>
+											<textarea class="textarea delay-100ms"></textarea>
+										</div>
+								</fieldset>
+								<div class="next-prev-button">
+									<button type="button" class="prev">Previous Question</button>
+									<button type="button" class="next" id="step3btn">Next Question</button>
+								</div></section>
+	
+	
+							
+
+						
+
+						<!-- step 3 -->
+						<section class="steps">
+							<div class="step-count">Question 3 / 4</div>
+							<h2 class="main-heading">How would you rate course the Instructor?</h2>
+							<div class="line-break"></div>
+
+							<!-- form -->
+							<fieldset class="form" id="step3">
+								<div class="row justify-content-space-between">
+									<div class="rating">
+										<h3>Rate your Experience</h3>
+										<p>How would you rate Experience with us?</p>
+										<div class="star-rating ">
+											<i class="star fa-regular fa-star"></i>
+											<i class="star fa-regular fa-star"></i>
+											<i class="star fa-regular fa-star"></i>
+											<i class="star fa-regular fa-star"></i>
+											<i class="star fa-regular fa-star"></i>
+										</div>
+
+										<div class="line-break mt-5 mb-5"></div>
+										<h3>Eloquence of instructor</h3>
+										<div class="score">
+											<div class="score-inner delay-100ms">
+												<div class="score-point">1</div>
+												<div class="score-point">2</div>
+												<div class="score-point">3</div>
+												<div class="score-point">4</div>
+												<div class="score-point">5</div>
+												<div class="score-point">6</div>
+												<div class="score-point">7</div>
+												<div class="score-point">8</div>
+												<div class="score-point">9</div>
+												<div class="score-point">10</div>
+											</div>
+											<p><span>Very Unsatisfied</span><span>Very Satisfied</span></p>
+										</div>
+
+										<div class="line-break mt-5 mb-5"></div>
+										<h3>Was the lecture properly delivered?</h3>
+										<div class="score">
+											<div class="score-inner">
+												<div class="score-point">1</div>
+												<div class="score-point">2</div>
+												<div class="score-point">3</div>
+												<div class="score-point">4</div>
+												<div class="score-point">5</div>
+												<div class="score-point">6</div>
+												<div class="score-point">7</div>
+												<div class="score-point">8</div>
+												<div class="score-point">9</div>
+												<div class="score-point">10</div>
+											</div>
+											<p><span>Very Unsatisfied</span><span>Very Satisfied</span></p>
+										</div>
+
+										<div class="line-break mt-5 mb-5"></div>
+										<h3>The quality of instruction?</h3>
+										<div class="score">
+											<div class="score-inner delay-100ms">
+												<div class="score-point">1</div>
+												<div class="score-point">2</div>
+												<div class="score-point">3</div>
+												<div class="score-point">4</div>
+												<div class="score-point">5</div>
+												<div class="score-point">6</div>
+												<div class="score-point">7</div>
+												<div class="score-point">8</div>
+												<div class="score-point">9</div>
+												<div class="score-point">10</div>
+											</div>
+											<p><span>Very Unsatisfied</span><span>Very Satisfied</span></p>
+										</div>
+
+										<div class="line-break mt-5 mb-5"></div>
+										<h3>The facilities?</h3>
+										<div class="score">
+											<div class="score-inner delay-100ms">
+												<div class="score-point">1</div>
+												<div class="score-point">2</div>
+												<div class="score-point">3</div>
+												<div class="score-point">4</div>
+												<div class="score-point">5</div>
+												<div class="score-point">6</div>
+												<div class="score-point">7</div>
+												<div class="score-point">8</div>
+												<div class="score-point">9</div>
+												<div class="score-point">10</div>
+											</div>
+											<p><span>Very Unsatisfied</span><span>Very Satisfied</span></p>
+										</div>
+
+										<div class="line-break mt-5 mb-5"></div>
+										<h3>The overall value of the course?</h3>
+										<div class="score">
+											<div class="score-inner delay-100ms">
+												<div class="score-point">1</div>
+												<div class="score-point">2</div>
+												<div class="score-point">3</div>
+												<div class="score-point">4</div>
+												<div class="score-point">5</div>
+												<div class="score-point">6</div>
+												<div class="score-point">7</div>
+												<div class="score-point">8</div>
+												<div class="score-point">9</div>
+												<div class="score-point">10</div>
+											</div>
+											<p><span>Very Unsatisfied</span><span>Very Satisfied</span></p>
+										</div>
+
+									</div>
+								</div>
+							</fieldset>
+							<div class="next-prev-button">
+								<button type="button" class="prev">Previous Question</button>
+								<button type="button" class="next" id="step4btn">Next Question</button>
+							</div>
+						</section>
+
+						<!-- step 4 -->
+						<section class="steps">
+							<div class="step-count">Question 4 / 4</div>
+							<h2 class="main-heading">How can we improve our training as a Company</h2>
+							<div class="line-break"></div>
+
+							<!-- form -->
+							<fieldset class="form" id="step4btn">
+								<div class="row justify-content-space-between">
+									<!--<h3 class="sub-heading">Where you find us from</h3>-->
+									<!--<div class="select">
+										<div class="select-inner">
+											<span><i class="fa-solid fa-hashtag"></i>Select Platform</span>
+											<i class="select-icon fa-solid fa-sort-down"></i>
+										</div>
+										<ul class="select-menu">
+											<li id="facebook"><i class="fa-brands fa-facebook-f"></i>Facebook</li>
+											<li id="Instagram"><i class="fa-brands fa-instagram"></i>Instagram</li>
+										</ul>
+									</div>-->
+									<!--<div class="line-break  mt-5 mb-5"></div>-->
+									<h3 class="sub-heading">Do you have any suggestions how to improve.</h3>
+									<textarea class="textarea delay-100ms"></textarea>
+								</div>
+							</fieldset>
+							<div class="next-prev-button">
+								<button type="button" class="prev">Previous Question</button>
+								<button id="sub" type="button" class="apply">Submit</button>
+							</div>
+						</section>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+
+
+	<div class="bg-partical-2">
+		<img src="assets/images/partical_2.png" alt="Partical">
+	</div>
+
+
+
+<!-- bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Jquery -->
+<script src="assets/jquery/jquery-3.6.0.min.js"></script>
+
+<!-- custom JS -->
+<script src="assets/js/custom.js"></script>
+
+    <!-- colorswitcher -->
+    <script src="assets/js/callswitcher.js"></script>
+
+
+</body>
+
+
+</html>
